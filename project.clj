@@ -8,6 +8,7 @@
                  [clj-time "0.11.0"]
                  [com.google.api-client/google-api-client "1.20.0"]
                  [com.google.apis/google-api-services-analytics "v3-rev116-1.20.0"]]
+  :plugins [[s3-wagon-private "1.1.2"]]
   :repositories {"snapshots" {:url "s3p://thinktopic.jars/snapshots/"
                               :passphrase :env
                               :username :env
