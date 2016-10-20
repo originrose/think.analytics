@@ -14,7 +14,6 @@ Please see the query example [doc/examples](doc/examples) to get started.
 
 ## License
 
-Copyright © 2015 uSwitch Limited
+Portions of code Copyright © 2016 uSwitch Limited, ThinkTopic, respectively.
 
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+Distributed under the Eclipse Public License either version 1.0 or (at your option) any later version.
