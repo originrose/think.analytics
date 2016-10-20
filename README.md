@@ -1,5 +1,7 @@
 # analytij
 
+This is ThinkTopic's fork of https://github.com/uswitch/analytij. All changes are made public to comply with the Eclipse Public License.
+
 Clojure library for accessing the Google Analytics reporting and management API.
 
 * [Core Reporting API](https://developers.google.com/analytics/devguides/reporting/core/v3/).
