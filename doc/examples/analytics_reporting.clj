@@ -12,7 +12,7 @@
 
 ;;; General setup
 
-(def service-account-id "some@xxx.gserviceaccount.com")
+(def service-account-id "style-analytics@style-analytics.iam.gserviceaccount.com")
 (def ga-service         (service service-account-id "secret.p12"))
 
 ;; The unique ID used to retrieve the Analytics data. This ID is the

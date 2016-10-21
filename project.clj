@@ -1,4 +1,4 @@
-(defproject thinktopic/think.analytics "0.0.2"
+(defproject thinktopic/think.analytics "0.0.5"
   :description "Clojure client to interact with Google Analytics API"
   :url "https://github.com/thinktopic/think.analytics"
   :license {:name "Eclipse Public License"

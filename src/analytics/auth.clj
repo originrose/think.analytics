@@ -1,4 +1,4 @@
-(ns analytij.auth
+(ns analytics.auth
   (:require [clojure.java.io :as io])
   (:import [com.google.api.client.googleapis.auth.oauth2 GoogleCredential$Builder]
            [com.google.api.client.googleapis.javanet GoogleNetHttpTransport]

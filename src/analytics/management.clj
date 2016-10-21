@@ -1,4 +1,4 @@
-(ns analytij.management
+(ns analytics.management
   (:import [com.google.api.client.http InputStreamContent])
   (:require [clojure.java.io :as io]))
 
@@ -33,8 +33,6 @@
 (defn upload-status [analytics-service account-id property-id data-source-id upload-id]
   (let [uploads (.. analytics-service management uploads)]
     (upload-status->map (.execute (.get uploads account-id property-id data-source-id upload-id)))))
-
-
 
 (defn accounts
   [service]

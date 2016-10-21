@@ -1,4 +1,4 @@
-(ns analytij.data
+(ns analytics.data
   (:require [schema.core :as s]
             [clojure.string :as st]
             [clj-time.format :as f]
@@ -58,7 +58,7 @@
   - sort
   - filters
   - max results"
-  [service {:keys [start-date end-date dimensions filters metrics view-id max-results] :as query} page-handler]
+  [service {:keys [start-date end-date dimensions filters metrics view-id max-results] :as query}]
   {:pre [(s/validate Query query)]}
   (let [data (.. service data ga)]
     (letfn [(build-query [start-index]
@@ -91,9 +91,9 @@
 
 
 (comment
-   (.setCloudStorageDownloadDetails r download)
-    (.setDownloadType r "CLOUD_STORAGE"))
-<
+  (.setCloudStorageDownloadDetails r download)
+  (.setDownloadType r "CLOUD_STORAGE"))
+
 (defn create-unsampled-report
   [service title {:keys [start-date end-date dimensions filters metrics account-id property-id view-id bucket object] :as query}]
   (let [r (UnsampledReport.)
